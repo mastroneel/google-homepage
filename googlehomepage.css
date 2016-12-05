@@ -1,0 +1,118 @@
+body {
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link {
+  font-size: 13px;
+  font-family: Arial;
+  color: #707070;
+  text-decoration: none;
+}
+
+ a:hover{
+   text-decoration:underline;
+ }
+
+#header {
+  text-align: right;
+}
+
+ul li {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline;
+}
+
+#gridicon {
+  vertical-align: text-top;
+}
+
+.signinbutton {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4386fa;
+  border: 1px solid;
+  border-color: #4386fa;
+  border-radius: 2px;
+  height: 32px;
+  width: 69px;
+}
+
+#logo {
+  height: 92px;
+  width: 272px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 27px;
+}
+
+#searchbox {
+  display: block;
+  margin: 0 auto;
+  height: 38px;
+  width: 486px;
+  border: 1px solid #d9d9d9;
+  background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat 98%;
+  background-size: 26px 24px;
+}
+
+input[type=text] {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#buttons {
+  text-align: center;
+  padding-bottom: 230px;
+}
+
+.button {
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  color:#757575;
+  display:inline;
+  background-color:#f4f4f4;
+  border:1px solid #f4f4f4;
+  border-radius:2px;
+  cursor:default;
+  margin:11px 4px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+#googlesearch {
+    height: 38px;
+    width: 125px;
+}
+
+#imfeelinglucky {
+  height: 38px;
+  width: 142px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  height: 40px;
+  width: 100%;
+}
+
+#leftfoot{
+  position: absolute;
+  left: -10px;
+  display:inline-block;
+}
+ 
+#rightfoot{
+   position: absolute;
+   right: 28px;
+   display:inline-block;
+}
